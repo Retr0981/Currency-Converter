@@ -172,6 +172,22 @@ function CurrencyConverter() {
       )}
 
       {error && <p className="mt-6 text-red-600 text-center">{error}</p>}
+
+  
+<footer className="mt-8 text-center transition-all duration-300 hover:bg-blue-100 hover:rounded-lg">
+  <p className="text-gray-600 transition-colors duration-300 hover:text-blue-600">
+    Built with <span className="text-red-500 transition-colors duration-300 hover:text-blue-600">❤️</span> by 
+    <a 
+      href="https://davidarmah.vercel.app/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-blue-600 hover:text-blue-800 hover:underline ml-1"
+    >
+      David Nii Armah
+    </a>
+  </p>
+</footer>
+
     </div>
   );
 }
